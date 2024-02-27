@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 150px;
+    background-color: rgb(255, 153, 51 );
+    color: white;
+    font-size: xx-large;
+    padding: 10px 20px;
+
+}
+
+
+nav {
+    height: 50px;
+    background-color: rgb(199, 174, 174 );
+    padding: 10px 10px;
+
+}
+
+nav a {
+    color: white;
+}
+
+
+
+header {
+    height: 150px;
+    background-color: rgb(255, 153, 51);
+    color: white;
+    font-size: xx-large;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.home-link {
+    display: inline-block; /* Ensures the link is a block element */
+    padding: 5px 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    text-decoration: none; /* Remove underline from the link */
+    color: white; /* Text color for the link */
+}
+
+.home-link:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Change background color on hover */
+}
+
+
+
+
+#content {
+    margin: 20px;
+}
+
+#content > div{
+    width: 35%;
+}
+
+#content > div, 
+#content > aside
+{
+    float: left;
+}
+
+#content > aside {
+    margin-left: 5%;
+    width: 60%;
+}
+
+#content > div > article {
+    margin-top: 20px;
+}
+
+
+footer {
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0, 0.8);
+    height: 60px;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%
+
+}
+
+footer {
+    color: rgb(255, 255, 255)
+}
+
+footer a{
+    color: rgb(255, 255, 255);
+}
+
