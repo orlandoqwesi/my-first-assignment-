@@ -36,6 +36,10 @@ header {
     position: relative;
 }
 
+header {
+    color: rgb(255, 255, 255)
+}
+
 .home-link {
     display: inline-block; /
     padding: 5px 10px;
