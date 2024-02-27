@@ -78,6 +78,7 @@ header {
 
 footer {
     position: fixed; /* Change to fixed */
+    position: Absolute;
     bottom: 0;
     left: 0; /* Add to ensure footer spans the entire width */
     width: 100%;
