@@ -37,16 +37,16 @@ header {
 }
 
 .home-link {
-    display: inline-block; /* Ensures the link is a block element */
+    display: inline-block; /
     padding: 5px 10px;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
-    text-decoration: none; /* Remove underline from the link */
-    color: white; /* Text color for the link */
+    text-decoration: none; /
+    color: white; /
 }
 
 .home-link:hover {
-    background-color: rgba(255, 255, 255, 0.2); /* Change background color on hover */
+    background-color: rgba(255, 255, 255, 0.2); 
 }
 
 
@@ -77,10 +77,10 @@ header {
 
 
 footer {
-    position: fixed; /* Change to fixed */
-    position: Absolute;
+    position: fixed;
+    top: 92%;
     bottom: 0;
-    left: 0; /* Add to ensure footer spans the entire width */
+    left: 0; 
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     height: 60px;
